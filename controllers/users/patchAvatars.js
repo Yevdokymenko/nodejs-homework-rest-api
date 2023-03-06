@@ -20,3 +20,5 @@ const patchAvatars = async (req, res) => {
     throw error;
   }
 };
+
+module.exports = patchAvatars;
